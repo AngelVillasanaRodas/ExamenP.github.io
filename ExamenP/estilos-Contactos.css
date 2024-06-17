@@ -1,0 +1,124 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #cccccc, #555555);
+}
+
+header{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    top: 0;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#menu{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+#menu a{
+    text-decoration: solid;
+    color: black;
+    padding: 20px;
+}
+#menu a:hover{
+    border-bottom: 1px solid red;
+    color: red;
+}
+#rs{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    margin-top: 50px;
+}
+#rs a{
+    padding: 10px;
+}
+.main {
+    padding: 20px;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.informacion-contacto, .formulario-contacto {
+    padding: 20px;
+}
+
+.informacion-contacto h2, .formulario-contacto h2 {
+    margin-bottom: 20px;
+}
+
+.informacion-contacto table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+.informacion-contacto table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.informacion-contacto img {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.formulario-contacto label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.formulario-contacto input, .formulario-contacto textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.formulario-contacto button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.formulario-contacto button:hover {
+    background-color: #45a049;
+}

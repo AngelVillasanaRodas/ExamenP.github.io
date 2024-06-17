@@ -1,0 +1,51 @@
+body{
+    background: url("img/Batman.webp");
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+    main{
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        top: 130px;
+        right: 40px;
+    }
+#menu a:hover{
+    border-bottom: 1px solid red;
+}
+p{
+    color: black;
+    font-size: 50px;
+    padding: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+span{
+    
+    font-size: 30px;
+}
+#menu{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+#menu a{
+    text-decoration: solid;
+    color: black;
+    padding: 20px;
+}
+#rs{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    margin-top: 50px;
+}
+#rs a{
+    padding: 10px;
+}
